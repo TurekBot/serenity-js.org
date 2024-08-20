@@ -586,6 +586,17 @@ serenity.project.name=My awesome project
 Please note that Serenity BDD reporting CLI considers only those properties that are related to producing test reports.
 :::
 
+#### Including Custom Fields
+See the [Custom Fields in Reports](https://serenity-bdd.github.io/docs/reporting/reports_custom_info) section for more on .
+
+```properties title="serenity.properties"
+report.customfields.ApplicationVersion = 1.2.3
+report.customfields.user = ${USER}
+```
+
+:::tip
+Ensure any environment variables you want to use are exported; otherwise, they won't be picked up.
+::
 
 ### Running Serenity BDD CLI
 
