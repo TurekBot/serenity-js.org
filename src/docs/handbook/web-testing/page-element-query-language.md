@@ -423,7 +423,7 @@ to fix multiple selectors in your test automation code. Not to mention the issue
 
 Serenity/JS [meta-questions](/api/core/interface/MetaQuestion) are "questions about questions",
 so questions that can be composed with other questions and answered in their context.
-In short, any Serenity/JS question that has an [`question.of(anotherQuestion)`](/api/core/interface/MetaQuestion/#of) API is
+In short, any Serenity/JS question that has a [`question.of(anotherQuestion)`](/api/core/interface/MetaQuestion/#of) API is
 a meta-question.
 
 Conveniently, [`PageElement`](/api/web/class/PageElement/) is a meta-question that can be 
