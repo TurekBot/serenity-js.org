@@ -45,7 +45,7 @@ yet sophisticated enough to be representative of other widgets you're likely to 
 
 ### Identifying individual page elements
 
-One of the most common things to implement in a web-based test scenario is an interaction with a web element, like clicking on an button, entering a value into a form field, or asserting on some message
+One of the most common things to implement in a web-based test scenario is an interaction with a web element, like clicking on a button, entering a value into a form field, or asserting on some message
 presented to the end-user.
 
 Of course, to interact with an element you need to tell your test how to find it.
