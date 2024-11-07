@@ -821,7 +821,7 @@ await actorCalled('Alice').attemptsTo(
 ### Finding a sibling element
 
 To find a sibling element, e.g. to find a destroy button for an item whose label contains a certain text:
-- find the container element which descendant element meets your conditions,
+- find the container element whose descendant element meets your conditions,
 - locate the sibling element within that container element.
 
 ```typescript
